@@ -40,15 +40,12 @@ Before running the analysis, ensure you have Python installed, along with the re
 ### Step 1: Clone the Repository
 
   ```
-  git clone https://github.com/yourusername/ev-data-analysis.git
-  cd ev-data-analysis
+  git clone https://github.com/aify6/Electric-Vehicle-EDA.git
+  cd Electric-Vehicle-EDA
 ```
 
 ## Step 2: Install Required Libraries
-```
-pip install -r requirements.txt
-```
-Note: If you don't have the requirements.txt file, you can manually install the required libraries using:
+You can manually install the required libraries using:
 
 ```
 pip install pandas matplotlib seaborn plotly bar_chart_race
@@ -58,17 +55,12 @@ pip install pandas matplotlib seaborn plotly bar_chart_race
 ```
 EV-Data-Analysis/
 │
-├── eda_ev.ipynb                 # Jupyter Notebook containing the full EDA
+├── Ev_Analysis.ipynb                 # Jupyter Notebook containing the full EDA
 └── README.md                    # Project documentation (this file)
 ```
 
 ### Usage
 To run the analysis, simply open the EV_Analysis.ipynb Jupyter Notebook and execute the cells in order.
-
-Alternatively, you can execute the Python script (if created) as follows:
-```
-python eda_ev.py
-```
 
 ## Analysis Summary
 - **Univariate Analysis**
