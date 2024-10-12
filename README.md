@@ -58,10 +58,8 @@ pip install pandas matplotlib seaborn plotly bar_chart_race
 ```
 EV-Data-Analysis/
 │
-├── dataset.csv                  # EV Dataset (the source file)
 ├── eda_ev.ipynb                 # Jupyter Notebook containing the full EDA
-├── README.md                    # Project documentation (this file)
-└── requirements.txt             # List of dependencies
+└── README.md                    # Project documentation (this file)
 ```
 
 ### Usage
@@ -74,16 +72,16 @@ python eda_ev.py
 
 ## Analysis Summary
 - **Univariate Analysis**
-  --Electric Range: Most EVs have a range between 50-100 miles, with a few outliers extending beyond 300 miles.
---Base MSRP: The majority of EVs are priced between $30,000 and $60,000, though some luxury models go above $100,000.
+  - Electric Range: Most EVs have a range between 50-100 miles, with a few outliers extending beyond 300 miles.
+  - Base MSRP: The majority of EVs are priced between $30,000 and $60,000, though some luxury models go above $100,000.
 - **Bivariate and Multivariate Analysis**
---Electric Range vs. Base MSRP: There is a positive correlation between electric range and MSRP, indicating that higher-range vehicles tend to be more expensive.
-Distribution of EVs by Make and Model Year: Certain brands like Tesla dominate the market in specific years.
+  - Electric Range vs. Base MSRP: There is a positive correlation between electric range and MSRP, indicating that higher-range vehicles tend to be more expensive.
+  - Distribution of EVs by Make and Model Year: Certain brands like Tesla dominate the market in specific years.
 - **Choropleth Map**
---A choropleth map was created using plotly.express to visualize the distribution of electric vehicles across different geographic locations based on available data.
+  -A choropleth map was created using plotly.express to visualize the distribution of electric vehicles across different geographic locations based on available data.
 
-- **4. Bar Chart Race Animation**
---An animated bar chart race was created using the bar_chart_race library, showing the count of EVs for each manufacturer across different years.
+- **Bar Chart Race Animation**
+  - An animated bar chart race was created using the bar_chart_race library, showing the count of EVs for each manufacturer across different years.
 
 ## Visualizations
 - Choropleth Map
